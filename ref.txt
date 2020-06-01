@@ -1,0 +1,8 @@
+using ref we doing the focus of input field
+using ref we get input of field
+ref does not used functional component
+
+
+it can be acheive by  two ways
+1)using Ref(mainly use this)
+2)using callback

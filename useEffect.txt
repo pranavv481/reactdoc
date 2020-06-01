@@ -1,0 +1,11 @@
+useEffect-> Perform the side effect in functional component
+
+It is th replcement of 
+1)componentDidMount
+2)componentDidUpdate
+3)componentWillUnmount 
+
+
+in use effect props function define in useeffect only
+[count]->watch the changes
+[]-> ignore the changes

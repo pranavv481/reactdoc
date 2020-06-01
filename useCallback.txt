@@ -1,0 +1,12 @@
+use Callback->
+it is used  for performance optimzation
+it prevent the unnessary render
+
+it change only when dependency is changed
+it optimised the child component
+
+it cache the function
+
+
+usememo-> 
+it cache the result

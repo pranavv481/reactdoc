@@ -1,0 +1,11 @@
+two type of component 
+1) state full(class)
+2) state less(function)
+
+advantage of functional component on class component
+absence of this keyword
+without using state
+
+class ->this, state, lifecycle
+
+state-> state hooks, effect hook

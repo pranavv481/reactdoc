@@ -1,0 +1,5 @@
+A custom is basicallly a javascript function whose name start with use
+
+custm hook call other hook if required
+
+itis used for share logic two or more component like hoc, render props 

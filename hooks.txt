@@ -1,0 +1,3 @@
+Don't call hooks inside loops, conditions or nested function
+
+Hooks call only in funnctional component

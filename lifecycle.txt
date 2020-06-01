@@ -1,0 +1,104 @@
+mounting-> when an instance of component is created and inserted in dom
+1)constructor-> 
+2)static getDrivedStateFromProps
+3)render
+4)componentDidMount
+
+
+updating-> when a component is being rerendered when the state and props changes
+1)static getDrivedstateFromProps
+2)Should component update
+3)render
+4)getSnapshotBeforeUpdate
+5)componentDidUpdate
+
+
+unmounting-> when the coomponent is being removed from the dom
+1)componet will unmount
+
+errorHandling-> there is an error during rerendering in a lifecycle method, or in the constructor of any child component
+1)static getDrivedStateFromError
+2)componentDidCatch
+
+
+Mounting->
+
+constructor->
+1)it is caled when new component is created
+2)initialize state
+3)binding the event handler
+4)not call http request with in a constructor
+5)set the state
+6)define super() - it call base class constructor
+
+ 
+static getDrivedStateFromProps->
+1)when the state of the component depend on changes in props overtime 
+
+render()-> 
+1)it is a required method 
+2)read props and read state and return jsx
+3)children component lifecycle method are also executed 
+
+componentDidMount()=>
+1)immediately after a component and all its children components have been rendered
+2) it call once in a time in lifecycle
+3) perfect place ajax calls
+
+
+updating->
+
+static getDrivedstateFromProps->  
+1) it take props and state as a parameter
+2) it is called for every change of state and props
+3) it called when state depend upon component
+
+Should component update->
+1)it has two argument next props and next state
+2) it receive update props and update state
+3) in this we give true and false value for component update or not
+
+render->
+1) it read state and props value return the jsx
+
+getSnapshotBeforeUpdate->
+1) it accept two argument are prevProps and prevState 
+2) call before the changes of the virual dom is reflected in the dom
+3) capture some information from the dom
+4)this method return a null or return a value. 
+
+componentDidUpdate()->
+
+1) call after the render is finished in the redered cycle
+2) it accept 3 argument prevProps, prevState, snapshot
+3) it call once each rerender cycle
+
+
+unmounting
+
+componetWillUnmount->
+
+1)this method is invoked before the component is unmounted and destroyed
+2)it cancel the network request, removing event handler, cancel subscription
+
+
+errorHandling
+
+static getDerivedStateFromError(error)
+
+componentDidCatch(error, info)
+
+1) error during rendering
+2)constructor of any child component
+
+
+
+
+
+
+
+
+
+
+
+

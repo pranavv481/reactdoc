@@ -1,0 +1,17 @@
+pure component-> It work only class component
+
+creating a class component by extending a pure component class from react
+
+
+Differnce Component/ purecomponent
+
+component->
+
+it does not implementthe shouldComponentUpdate method.it always return true by default
+it render the value again and again .if prev state and current state both are same and prev props and current props are same 
+
+
+pure component-. 
+
+it implement shouldComponentUpdate method with shallow prop and state comparision  
+it does not render the value again and again .if prev state and current state both are same and prev props and current props are same 

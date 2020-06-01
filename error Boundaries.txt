@@ -1,0 +1,17 @@
+ errorHandling->
+
+
+errorBoundaries->
+it is react component that catch javascript error in their child 
+component tree, log those error and display the fallback ui
+A class that implement either one or both of the lifecycle methods
+getDerivedStateFromError or ComponentDidCatch become an error Boundaries
+
+static getDerivedStateFrom Error()->
+
+it is used to render a fallback ui after an error is thrown
+
+componenetDidCatch()->
+
+it is ued to log the error information
+

@@ -1,0 +1,5 @@
+rce - create a class component 
+rfce - create a functional component
+rconst - create a contrutor with super
+rpce - creating a pure component
+imr - import react

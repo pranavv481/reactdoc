@@ -1,0 +1,32 @@
+Redux is third party library for react and angular 
+
+It provide the state management
+it is the container of state
+changes of state are predictable
+
+
+
+React is library for user interfaces
+
+Redux is library for managing state in predictable way
+
+React-reduc is a library provide binding react and redux togther in an application
+
+
+store
+
+one store for entire application
+hold the application state
+accept to state using getState()
+allow state to be updated using dispatch()
+register by subscribe()
+unregister()
+
+
+middleware->  redux-logger
+
+logging
+crash Reporting
+performing asynchronous task
+
+

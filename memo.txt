@@ -1,0 +1,5 @@
+pure component functionality implement in functional component used memo
+
+memo->
+
+avoid to render the same state and props in functional component

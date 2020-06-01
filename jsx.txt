@@ -1,0 +1,8 @@
+jsx-javascript xml
+
+it has tag, attributes, children
+
+class=>. className
+for=> htmlFor
+onclick=>onClick
+tabindex=> tabIndex

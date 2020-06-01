@@ -1,0 +1,16 @@
+props-> properties
+
+from parent to child component 
+
+differnce
+props get passerd to component 
+state with in a component
+
+props are immutable
+state can be changed
+
+props= functional component
+this.props= class component
+
+useState =funnctional componennt
+this.state =class component

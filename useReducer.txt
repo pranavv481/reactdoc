@@ -1,0 +1,7 @@
+it is a hook. used for state management
+
+useReducer(reducer, initialState)
+new State = reducer(currentState, action)
+
+useReducer return a pair of values
+[newState, dispatch]
